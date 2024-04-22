@@ -6,6 +6,16 @@ st.set_page_config(
     layout="wide",                      # "centered" or "wide"
     initial_sidebar_state="collapsed",   #"auto", "expanded", or "collapsed"
 )
+ st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #FBF9F8;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # st.title("Hello")
 
