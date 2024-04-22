@@ -1,6 +1,5 @@
-import os, json, time
+import time
 import streamlit as st
-import cohere
 
 st.set_page_config(
     page_title="Oracle CX Sales Chat",
