@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide",                      # "centered" or "wide"
     initial_sidebar_state="collapsed",   #"auto", "expanded", or "collapsed"
 )
- st.markdown(
+st.markdown(
     """
     <style>
     .reportview-container {
