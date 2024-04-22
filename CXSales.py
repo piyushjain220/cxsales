@@ -58,7 +58,7 @@ if prompt := st.chat_input("Enter a prompt for analysis eg: Summarize the sales 
             with st.spinner('Analyzing...'):
                 time.sleep(3)
             st.write(bot_response)
-        elif st.session_state.messages[-1]["content"]=="Create an opportunity dashboard for current quarter":
+        elif st.session_state.messages[-1]["content"]=="Create an opportunity dashboard summary for current quarter":
             bot_response = """Here's an opportunity dashboard for the current quarter (Q2 2024):
 
 
