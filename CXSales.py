@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",   #"auto", "expanded", or "collapsed"
 )
 
-st.title("Hello")
+# st.title("Hello")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
